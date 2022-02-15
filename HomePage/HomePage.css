@@ -1,0 +1,48 @@
+@import '../Common.css';
+
+ .quiz-home-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightgray-color);
+	text-align: center;
+    height: 100vh;
+}
+
+  .home-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      /* background-color: brown; */
+      gap:20px;
+      text-align: center;
+  }
+
+  .home-sub-container{
+    border: 2px solid var(--primary-bg);
+    border-radius: 10px;
+  }
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .quiz-home-box{
+        height: max-content;
+        padding-top: 2.5rem;
+    }
+
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-container img{
+        height:20rem;
+        width:20rem;
+        object-fit: cover;
+    }
+}

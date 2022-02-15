@@ -1,0 +1,23 @@
+@import '../Common.css';
+
+.quiz-home-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightgray-color);
+	text-align: center;
+}
+.quiz-home-box.show{
+	display: block;
+	animation: fadeInRight 1s ease;
+}
+
+.categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--darkgray-color); */
+    gap:20px;
+}
