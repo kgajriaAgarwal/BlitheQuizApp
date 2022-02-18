@@ -49,8 +49,6 @@
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
-	/* flex-basis: calc(50% - 20px);
-	max-width: calc(50% - 20px); */
 	text-align: right;
 }
 
@@ -116,7 +114,6 @@
 	background-color: var(--lightgreen-color);
 	color: var(--darkgreen-color);
 	border: 2px solid var(--darkgreen-color);
-	border-color: darkgray;
 	animation: pulse 3s linear;
 }
 .quiz-home-box  .option-box .option.correct{
@@ -186,14 +183,13 @@
 
 .quiz-home-box .next-question{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 
-.quiz-home-box .next-question .btn-see-result{
+/* .quiz-home-box .next-question .btn-see-result{
     margin-left: auto;
-}
-  
+}*/
   
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
