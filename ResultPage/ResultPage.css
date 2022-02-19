@@ -31,6 +31,51 @@
     max-height: 10rem;
 }
 
+.table-container{
+    max-height: max-content;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+table th{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+}
+
+table td{
+    background-color: var(--white-color);
+}
+
+table .que-num{
+    width:10%;
+}
+
+table .que{
+    width: 60%;
+}
+
+table .ans{
+    width: 30%;
+}
+  
+tr:hover {
+    background-color: var(--tertiary-color);
+}
+
+.que-ans-container{
+
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {       
@@ -44,5 +89,11 @@
 
     .home-container {
         flex-direction: column;
+    }
+
+    .table-container{
+        width:100%;
+        overflow-x:auto;
+        max-height: max-content;
     }
 }
