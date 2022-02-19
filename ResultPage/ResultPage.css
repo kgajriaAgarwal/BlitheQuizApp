@@ -72,10 +72,6 @@ tr:hover {
     background-color: var(--tertiary-color);
 }
 
-.que-ans-container{
-
-}
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {       
