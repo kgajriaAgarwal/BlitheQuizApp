@@ -1,4 +1,4 @@
-# Blithe Ecommerce
+# Blithe Quiz App
 ### A quiz app based on healthcare.
 
 ## Features
