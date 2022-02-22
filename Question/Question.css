@@ -3,7 +3,6 @@
 .quiz-home-box{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     background-color: var(--lightgray-color);
 	text-align: center;
@@ -21,8 +20,6 @@
 .quiz-home-box .stats .quiz-time{
     display: inline-flex;
     align-items: center;
-	/* flex-basis: calc(50% - 20px);
-	max-width: calc(50% - 20px); */
 	text-align: left;
 }
 
@@ -187,9 +184,6 @@
     align-items: center;
 }
 
-/* .quiz-home-box .next-question .btn-see-result{
-    margin-left: auto;
-}*/
   
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */

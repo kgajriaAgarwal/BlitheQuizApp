@@ -18,6 +18,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--darkgray-color); */
     gap:20px;
 }
