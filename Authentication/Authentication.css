@@ -84,6 +84,13 @@ section .login-content-container .login-form .btn-primary{
     width:50%;
 }
 
+.btn-link-forgotpassword{
+    background-color: transparent;
+    color: var(--black-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 section .login-content-container .login-form .remember{
     margin-bottom: 10px;
     color: var(--secondary-color);
