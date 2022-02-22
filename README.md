@@ -7,6 +7,10 @@
 - Rules page
 - MCQ based quiz question page 
 - Result page with ans and score
+- Authentication
+  - signup
+  - login
+- Forgot password
 
 ## Tech used
 - html
